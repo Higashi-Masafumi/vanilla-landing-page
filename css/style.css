@@ -234,6 +234,27 @@ img {
     transform: translateY(-10px) rotateY(-5deg);
 }
 
+/* Video Ad Section */
+.video-ad-section {
+    padding: var(--spacing-xl) 0;
+    background-color: var(--color-bg);
+}
+
+.video-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    background-color: #000;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Problem & Solution */
 .problem-solution {
     padding: var(--spacing-xl) 0;
